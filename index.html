@@ -7,11 +7,11 @@
     <title>eLearning</title>
 </head>
 <body>
-    <header class="px-[140px] py-10 flex justify-between items-center mb-[37px]">
+    <header class="px-5 lg:px-[140px] py-2 lg:py-10 flex justify-between items-center mb-[37px]">
         <div class="relative">
             <h1 class="text-[#10C843] text-3xl font-bold">eLearning</h1>
         </div>
-        <div>
+        <div class="hidden lg:block">
             <ul class="text-base font-medium flex justify-center gap-[22px]">
                 <li class="text-[#10C843] border-b-4 border-[#10C843]">Home</li>
                 <li class="text-[#747474] ">Features</li>
@@ -22,7 +22,7 @@
             </ul>
         </div>
         <div class="flex justify-center gap-4">
-            <div class="bg-[#F2F2F2] rounded-full p-[18px] size-14">
+            <div class="bg-[#F2F2F2] rounded-full p-[18px] size-14 hidden lg:block">
                 <img src="images/search.svg" alt="search" class="size-5 "> 
             </div>
             <p class="
@@ -32,10 +32,10 @@
         
     </header>
  <!-- ----------------------- -->
-    <div class="px-[140px] py-10 grid grid-cols-2 ">
-        <div class="">
-            <p class="text-[64px] font-bold">You bring the 
-                <samp class="text-[#10C843] max-w-[667px] mb-[30px]">
+    <div class="px-5 py-5 lg:px-[140px] lg:py-10 grid lg:grid-cols-2 lg:mb-44">
+        <div class="pt-20">
+            <p class="text-[56px] font-semibold ">You bring the 
+                <samp class="text-[#10C843] max-w-[80%s] mb-[30px]">
                 expertise</samp>, we'll make it unforgettable.
             </p>
             <div>
@@ -45,7 +45,7 @@
                     goals as they progress through a journey.
                 </p>
             </div>
-            <div class="flex items-center gap-4">
+            <div class="flex items-center gap-4 mb-8">
                 <div class="
                     text-base font-medium text-white flex justify-center items-center bg-[#10C843] py-4 px-[20px] rounded-full">
                     Register <img src="images/arrow.svg" alt="" class="size-[20px] ml-[10px]">
@@ -56,29 +56,30 @@
                 </div>
             </div>
         </div>
-        <div>
-            <div class="absolute -bottom-[235px] right-[140px]">
-                <div class="
-                bg-[#10C843] rounded-t-[10.5rem] rounded-br-[10.5rem] rounded-bl-xl w-[500px] h-[650px] relative">
-                    <div class="absolute bg-white size-[30px] rounded-full top-1 right-[100px]"></div>
-                    <div class="absolute bg-white size-[30px] rounded-full top-2 left-[80px]"></div>
-                    <div class="absolute bg-white size-[30px] rounded-full top-28 -left-[10px]"></div>
-                    <div class="absolute bg-white size-4 rounded-full top-[150px] left-[100px]"></div>
-                    <div class="absolute bg-white size-4 rounded-full top-[200px] -right-[5px]"></div>
-                    <div class="absolute bg-[#10C843] size-[18px] rounded-full top-[400px] -left-[110px]"></div>
-                    <div class="absolute bg-white size-[14px] rounded-full -bottom-1 left-10"></div>
-                    <div class="absolute  bg-[#10C843] size-[30px] rounded-full bottom-0 -right-11"></div>
+        <div class="relative flex justify-center">
+            <div class="absolute lg:right-[2%] lg:top-[4%] right-20 pt-28 lg:pt-0">
+                <div class="bg-[#10C843] lg:rounded-t-[10.5rem] lg:rounded-br-[10.5rem] 
+                lg:rounded-bl-xl rounded-t-[4.5rem] rounded-br-[4.5rem] lg:w-[500px] 
+                lg:h-[650px] w-[270px] h-[355px] relative">
+                    <div class="absolute bg-white hidden lg:block size-[30px] rounded-full top-1 right-[100px]"></div>
+                    <div class="absolute bg-white hidden lg:block size-[30px] rounded-full top-2 left-[80px]"></div>
+                    <div class="absolute bg-white hidden lg:block size-[30px] rounded-full top-28 -left-[10px]"></div>
+                    <div class="absolute bg-white hidden lg:block size-4 rounded-full top-[150px] left-[100px]"></div>
+                    <div class="absolute bg-white hidden lg:block size-4 rounded-full top-[200px] -right-[5px]"></div>
+                    <div class="absolute bg-[#10C843] hidden lg:block size-[18px] rounded-full top-[400px] -left-[110px]"></div>
+                    <div class="absolute bg-white hidden lg:block size-[14px] rounded-full -bottom-1 left-10"></div>
+                    <div class="absolute bg-[#10C843] hidden lg:block size-[30px] rounded-full bottom-0 -right-11"></div>
                 </div>
             </div>
-            <img src="images/hero.png" alt="hero" class="w-full relative">
+            <img src="images/hero.png" alt="hero" class="lg:w-[570px] w-[300px] absolute pt-28 lg:pt-0">
         </div>
-        <div class="absolute -bottom-[200px] left-[145px]">
+        <div class="lg:absolute lg:-bottom-[20%] lg:left-[12%] mb-[400px] lg:mb-0">
             <div class=" bg-[#EDEDED] rounded-full flex items-center gap-5 px-7 py-5">
                 <p class="text-base font-normal flex justify-center items-center"
-                    >Select Course <img src="images/down.svg" alt="" class="size-[18px] ml-28"></p>
+                    >Select Course <img src="images/down.svg" alt="" class="size-[18px] lg:ml-28"></p>
                 <div class="w-1 h-11 bg-[#E0E0E0]"></div>
                 <p class="text-base font-normal flex justify-center items-center"
-                    >Select Instructor <img src="images/down.svg" alt="" class="size-[18px] ml-28"></p>
+                    >Select Instructor <img src="images/down.svg" alt="" class="size-[18px] lg:ml-28"></p>
                 <div class="w-1 h-11 bg-[#E0E0E0]"></div>
                 <div class="
                 bg-[#10C843] rounded-full px-[20px] py-4 text-white text-base font-medium flex justify-center items-center">
@@ -87,15 +88,16 @@
         </div>
     </div>
     <!-- -------------------->
-    <div class="px-[140px] py-14 mb-40 flex justify-center items-center gap-4 bg-black">
+    <div class="lg:px-[140px] lg:py-14 py-6 mb-40 lg:flex lg:justify-center 
+    items-center grid grid-cols-2 gap-0 lg:gap-4 bg-black">
         <img src="images/coursera.png" alt="" class=" w-[278px] h-[99px]">
         <img src="images/udemy.png" alt="" class=" w-[278px] h-[99px]">
         <img src="images/oxford.png" alt="" class=" w-[278px] h-[99px]">
         <img src="images/michigan.png" alt="" class=" w-[278px] h-[99px]">
     </div>
     <!-- --------------- -->
-    <div class="px-[140px] grid grid-cols-2 mb-40">
-        <div class="">
+    <div class="px-5 lg:px-[140px] grid lg:grid-cols-2 mb-40">
+        <div class="mr-7 ">
             <p class="text-[#10C843] text-2xl font-semibold mb-5" >About Us</p>
             <p class="text-5xl font-medium mb-5">eLearning providing the best opportunities to the students around the glob.</p>
             <p class="text-base font-normal mb-5">Install our top-rated dropshipping app to your 
@@ -112,20 +114,20 @@
             </p>
             <button class="bg-[#10C843] rounded-full px-[20px] py-4 text-white text-base 
                 font-medium flex justify-center items-center gap-[10px]"
-                >Join Us <img src="images/arrow.svg" alt="" class="size-[20px]"></button>
+                >Join Us <img src="images/arrow.svg" alt="" class="size-[20px] "></button>
         </div>
-        <div class="">
+        <div class="relative  hidden lg:block">
             <div class="size-[474px] bg-[#F2F2F2] rounded-xl ml-28 relative"></div>
-            <img src="images/room.png" alt="" class="absolute w[376px] h-[246px] rounded-xl top-[1340px] right-[130px]">
-            <img src="images/meeting.png" alt="" class="absolute w[376px] h-[246px] rounded-xl -bottom-[1150px] ">
+            <img src="images/room.png" alt="" class="absolute w[376px] h-[246px] rounded-xl -top-[20px] -right-[40px]">
+            <img src="images/meeting.png" alt="" class="absolute w[376px] h-[246px] rounded-xl bottom-0 left-0">
             <div class=""></div>
     
         </div>
     </div>
-    <div class="px-[140px] grid grid-cols-2 mb-40">
-        <div class="">
+    <div class="px-5 lg:px-[140px] grid lg:grid-cols-2 mb-40">
+        <div class="relative  hidden lg:block">
             <div class="bg-[#F2F2F2] size-[474px] rounded-xl "></div>
-            <img src="images/idea.png" alt="" class="w-[434px] rounded-xl absolute top-[2100px] left-40">
+            <img src="images/idea.png" alt="" class="w-[434px] rounded-xl absolute top-6 left-6">
         </div>
         <div class="">
             <p class="text-[#10C843] text-2xl font-semibold mb-5" >Features</p>
@@ -145,52 +147,70 @@
                 font-medium flex justify-center items-center gap-[10px]"
                 >Learn More<img src="images/arrow.svg" alt="" class="size-[20px]"></button>
         </div>
-    </div>
-    <div class="px-[140px] mb-40">
-        <div class="bg-[url(images/bg.png)] bg-cover bg-center w-full"></div>
-        <img src="images/bg.png" alt="">
+    </div> 
+    <div class="px-5 lg:px-[140px] mb-40 ">
+        <div class="text-center bg-[url('images/bg.png')] bg-cover rounded-xl px-7 py-10">
+            <p class="text-[#10C843] text-2xl font-semibold mb-5">Join Us</p>
+            <p class="text-5xl font-medium mb-5 text-white lg:px-[250px]">Join Us by Creating Account or Start a Free Trial</p>
+            <p class="text-base font-normal mb-5 text-white lg:px-[250px]">Install our top-rated dropshipping app to your 
+                e-commerce site and get access to US Suppliers, AliExpress vendors, and the best dropshipping 
+                and custom products.
+            </p>
+            <div class="flex items-center justify-center gap-4">
+                <button class="bg-[#10C843] rounded-full px-[20px] py-4 text-white text-base 
+                    font-medium flex justify-center items-center gap-[10px]"
+                    >Start Free Trial <img src="images/arrow.svg" alt="" class="size-[20px]">
+                </button>
+                <button class="rounded-full border-2 border-white px-[20px] py-4 text-white text-base 
+                    font-medium flex justify-center items-center gap-[10px]"
+                    >Contact Us <img src="images/arrow.svg" alt="" class="size-[20px]">
+                </button>
+            </div>
+        </div>
     </div>
     <!-- --- -->
-    <div class="px-[140px] mb-40">
+    <div class="px-5 lg:px-[140px] mb-40">
         <p class="text-center text-[#10C843] text-2xl font-semibold mb-[30px]" >Our Benefits</p>
-        <p class="text-center text-5xl font-medium mb-[30px] px-48">By Joining eLearning Platform, One Can Avail a Lot Of Benefits.</p>
-        <p class="text-center text-base font-normal mb-[30px] px-72">Install our top-rated dropshipping app to your e-commerce site and get access to US Suppliers, AliExpress vendors, and the best.</p>
-        <div class="grid grid-cols-3 gap-4">
-            <div class="bg-[#F7FDF9] rounded-xl mb-[20px] px-[20px] py-[20px]">
-                <p class="text-[#10C843] text-[34px] font-medium mb-6 ">01</p>
-                <p class="text-2xl font-medium mb-5">Pangea Afrikan Trial</p>
-                <p class="text-base font-medium">When working in a global workplace,
-                     it’s often difficult to gauge learners’ training experiences, which are ... <span class="text-[#10C843]">Read More</span></p>
-            </div>
-            <div class="bg-[#F7FDF9] rounded-xl mb-[20px] px-[20px] py-[20px]">
-                <p class="text-[#10C843] text-[34px] font-medium mb-6 ">02</p>
-                <p class="text-2xl font-medium mb-5">Pangea Afrikan Trial</p>
-                <p class="text-base font-medium">When working in a global workplace,
-                     it’s often difficult to gauge learners’ training experiences, which are ... <span class="text-[#10C843]">Read More</span></p>
-            </div>
-            <div class="bg-[#F7FDF9] rounded-xl mb-[20px] px-[20px] py-[20px]">
-                <p class="text-[#10C843] text-[34px] font-medium mb-6 ">03</p>
-                <p class="text-2xl font-medium mb-5">Pangea Afrikan Trial</p>
-                <p class="text-base font-medium">When working in a global workplace,
-                     it’s often difficult to gauge learners’ training experiences, which are ... <span class="text-[#10C843]">Read More</span></p>
-            </div>
-            <div class="bg-[#F7FDF9] rounded-xl mb-[20px] px-[20px] py-[20px]">
-                <p class="text-[#10C843] text-[34px] font-medium mb-6 ">04</p>
-                <p class="text-2xl font-medium mb-5">Pangea Afrikan Trial</p>
-                <p class="text-base font-medium">When working in a global workplace,
-                     it’s often difficult to gauge learners’ training experiences, which are ... <span class="text-[#10C843]">Read More</span></p>
-            </div>
-            <div class="bg-[#F7FDF9] rounded-xl mb-[20px] px-[20px] py-[20px]">
-                <p class="text-[#10C843] text-[34px] font-medium mb-6 ">05</p>
-                <p class="text-2xl font-medium mb-5">Pangea Afrikan Trial</p>
-                <p class="text-base font-medium">When working in a global workplace,
-                     it’s often difficult to gauge learners’ training experiences, which are ... <span class="text-[#10C843]">Read More</span></p>
-            </div>
-            <div class="bg-[#F7FDF9] rounded-xl mb-[20px] px-[20px] py-[20px]">
-                <p class="text-[#10C843] text-[34px] font-medium mb-6 ">06</p>
-                <p class="text-2xl font-medium mb-5">Pangea Afrikan Trial</p>
-                <p class="text-base font-medium">When working in a global workplace,
-                     it’s often difficult to gauge learners’ training experiences, which are ... <span class="text-[#10C843]">Read More</span></p>
+        <p class="text-center text-5xl font-medium mb-[30px] lg:px-48">By Joining eLearning Platform, One Can Avail a Lot Of Benefits.</p>
+        <p class="text-center text-base font-normal mb-[30px] lg:px-72">Install our top-rated dropshipping app to your e-commerce site and get access to US Suppliers, AliExpress vendors, and the best.</p>
+        <div class="overflow-y-auto">
+            <div class="lg:grid lg:grid-cols-3 gap-4">
+                <div class="bg-[#F7FDF9] rounded-xl mb-[20px] px-[20px] py-[20px]">
+                    <p class="text-[#10C843] text-[34px] font-medium mb-6 ">01</p>
+                    <p class="text-2xl font-medium mb-5">Pangea Afrikan Trial</p>
+                    <p class="text-base font-medium">When working in a global workplace,
+                         it’s often difficult to gauge learners’ training experiences, which are ... <span class="text-[#10C843]">Read More</span></p>
+                </div>
+                <div class="bg-[#F7FDF9] rounded-xl mb-[20px] px-[20px] py-[20px]">
+                    <p class="text-[#10C843] text-[34px] font-medium mb-6 ">02</p>
+                    <p class="text-2xl font-medium mb-5">Pangea Afrikan Trial</p>
+                    <p class="text-base font-medium">When working in a global workplace,
+                         it’s often difficult to gauge learners’ training experiences, which are ... <span class="text-[#10C843]">Read More</span></p>
+                </div>
+                <div class="bg-[#F7FDF9] rounded-xl mb-[20px] px-[20px] py-[20px]">
+                    <p class="text-[#10C843] text-[34px] font-medium mb-6 ">03</p>
+                    <p class="text-2xl font-medium mb-5">Pangea Afrikan Trial</p>
+                    <p class="text-base font-medium">When working in a global workplace,
+                         it’s often difficult to gauge learners’ training experiences, which are ... <span class="text-[#10C843]">Read More</span></p>
+                </div>
+                <div class="bg-[#F7FDF9] rounded-xl mb-[20px] px-[20px] py-[20px]">
+                    <p class="text-[#10C843] text-[34px] font-medium mb-6 ">04</p>
+                    <p class="text-2xl font-medium mb-5">Pangea Afrikan Trial</p>
+                    <p class="text-base font-medium">When working in a global workplace,
+                         it’s often difficult to gauge learners’ training experiences, which are ... <span class="text-[#10C843]">Read More</span></p>
+                </div>
+                <div class="bg-[#F7FDF9] rounded-xl mb-[20px] px-[20px] py-[20px]">
+                    <p class="text-[#10C843] text-[34px] font-medium mb-6 ">05</p>
+                    <p class="text-2xl font-medium mb-5">Pangea Afrikan Trial</p>
+                    <p class="text-base font-medium">When working in a global workplace,
+                         it’s often difficult to gauge learners’ training experiences, which are ... <span class="text-[#10C843]">Read More</span></p>
+                </div>
+                <div class="bg-[#F7FDF9] rounded-xl mb-[20px] px-[20px] py-[20px]">
+                    <p class="text-[#10C843] text-[34px] font-medium mb-6 ">06</p>
+                    <p class="text-2xl font-medium mb-5">Pangea Afrikan Trial</p>
+                    <p class="text-base font-medium">When working in a global workplace,
+                         it’s often difficult to gauge learners’ training experiences, which are ... <span class="text-[#10C843]">Read More</span></p>
+                </div>
             </div>
         </div>
         <div class="flex justify-center items-center gap-11">
@@ -201,100 +221,84 @@
                 >All Features<img src="images/arrow.svg" alt="" class="size-[20px]"></button>
         </div>
     </div>
-    <div class="px-[140px] mb-40 bg-black py-[90px] ">
-        <p class="text-center text-[#10C843] text-2xl font-semibold mb-[30px]" >Our Benefits</p>
-        <p class="text-center text-white text-5xl font-medium mb-[30px] px-48">Our Best Courses Offered and Teach By Best of The Instructors</p>
-        <p class="text-center text-white text-base font-normal mb-[30px] px-72">Install our top-rated dropshipping app to your e-commerce site and get access to US Suppliers, AliExpress vendors, and the best.</p>
-        <div class="flex justify-center gap-4 overflow-x-auto scroll-pl-10 p-4 mb-20">
-            <div class="bg-white px-[20px] py-[20px] rounded-lg w-[376px]">
-                <img src="images/java.png " alt="" class="w-[336px] h-[221px] mb-[20px]">
-                <div class="mb-[20px] flex items-center gap-16">
-                    <p class="text-2xl font-semibold ">Basics of JAVA</p>
-                    <p class="text-[#10C843] text-xs font-medium p-3 bg-[#CFF4D9] rounded-lg ">Beginner Level</p>
-                </div>
-                <p class="text-base font-normal mb-[20px]">Java is a class-based object-oriented simple programming language. Though we can not consider it to be fully ... </p>
-                <p class="text-base font-medium mb-[20px]"><span class="text-[#10C843] text-4xl">125.65</span>AED</p>
-                <div class="flex justify-center items-center gap-4">
-                    <button class="bg-[#10C843] rounded-full px-[20px] py-4 text-white text-base 
-                        font-medium flex justify-center items-center gap-[10px] px-"
-                        >View Course
-                    </button>
-                    <div class="p-4 border-2 border-[#10C843] rounded-full size-14 flex items-center">
-                        <img src="images/card.svg" alt="" class="w-5">
+    <div class="px-5 lg:px-[140px] mb-40 bg-black lg:py-[90px] py-9">
+        <p class="text-center text-[#10C843] text-2xl font-semibold mb-[30px]">Our Courses</p>
+        <p class="text-center text-white text-5xl font-medium mb-[30px] lg:px-48">Our Best Courses Offered and Teach By Best of The Instructors</p>
+        <p class="text-center text-white text-base font-normal mb-[30px] lg:px-72">Install our top-rated dropshipping app to your e-commerce site and get access to US Suppliers, AliExpress vendors, and the best.</p>
+        <div class=" overflow-x-auto mb-20">
+            <div class="flex gap-4 scroll-pl-10 p-4 min-w-max">
+                <div class="bg-white px-[20px] py-[20px] rounded-lg w-[376px]">
+                    <img src="images/java.png " alt="" class="w-full h-[221px] mb-[20px]">
+                    <div class="mb-[20px] flex justify-between items-center gap-16">
+                        <p class="text-2xl font-semibold ">Basics of JAVA</p>
+                        <p class="text-[#10C843] text-xs font-medium p-3 bg-[#CFF4D9] rounded-lg ">Beginner Level</p>
                     </div>
-                </div>    
-            </div>
-            <div class="bg-white px-[20px] py-[20px] rounded-lg">
-                <img src="images/java.png " alt="" class="w-[336px] h-[221px] mb-[20px]">
-                <div class="mb-[20px] flex items-center gap-16">
-                    <p class="text-2xl font-semibold ">Basics of JAVA</p>
-                    <p class="text-[#10C843] text-xs font-medium p-3 bg-[#CFF4D9] rounded-lg ">Beginner Level</p>
+                    <p class="text-base font-normal mb-[20px]">Java is a class-based object-oriented simple programming language. Though we can not consider it to be fully ... </p>
+                    <p class="text-base font-medium mb-[20px]"><span class="text-[#10C843] text-4xl">125.65</span>AED</p>
+                    <div class="flex justify-between items-center gap-4">
+                        <button class="bg-[#10C843] rounded-full px-[20px] py-4 text-white text-base 
+                            font-medium flex justify-center items-center gap-[10px] px-"
+                            >View Course
+                        </button>
+                        <div class="p-4 border-2 border-[#10C843] rounded-full size-14 flex items-center">
+                            <img src="images/card.svg" alt="" class="w-5">
+                        </div>
+                    </div>    
                 </div>
-                <p class="text-base font-normal mb-[20px]">Java is a class-based object-oriented simple programming language. Though we can not consider it to be fully ... </p>
-                <p class="text-base font-medium mb-[20px]"><span class="text-[#10C843] text-4xl">125.65</span>AED</p>
-                <div class="flex justify-center items-center gap-4">
-                    <button class="bg-[#10C843] rounded-full px-[20px] py-4 text-white text-base 
-                        font-medium flex justify-center items-center gap-[10px] px-"
-                        >View Course
-                    </button>
-                    <div class="p-4 border-2 border-[#10C843] rounded-full size-14 flex items-center">
-                        <img src="images/card.svg" alt="" class="w-5">
+                <div class="bg-white px-[20px] py-[20px] rounded-lg w-[376px]">
+                    <img src="images/java.png " alt="" class="w-full h-[221px] mb-[20px]">
+                    <div class="mb-[20px] flex justify-between items-center gap-16">
+                        <p class="text-2xl font-semibold ">Basics of JAVA</p>
+                        <p class="text-[#10C843] text-xs font-medium p-3 bg-[#CFF4D9] rounded-lg ">Beginner Level</p>
                     </div>
-                </div>    
-            </div>        
-            <div class="bg-white px-[20px] py-[20px] rounded-lg">
-                <img src="images/java.png " alt="" class="w-[336px] h-[221px] mb-[20px]">
-                <div class="mb-[20px] flex items-center gap-16">
-                    <p class="text-2xl font-semibold ">Basics of JAVA</p>
-                    <p class="text-[#10C843] text-xs font-medium p-3 bg-[#CFF4D9] rounded-lg ">Beginner Level</p>
+                    <p class="text-base font-normal mb-[20px]">Java is a class-based object-oriented simple programming language. Though we can not consider it to be fully ... </p>
+                    <p class="text-base font-medium mb-[20px]"><span class="text-[#10C843] text-4xl">125.65</span>AED</p>
+                    <div class="flex justify-between items-center gap-4">
+                        <button class="bg-[#10C843] rounded-full px-[20px] py-4 text-white text-base 
+                            font-medium flex justify-center items-center gap-[10px] px-"
+                            >View Course
+                        </button>
+                        <div class="p-4 border-2 border-[#10C843] rounded-full size-14 flex items-center">
+                            <img src="images/card.svg" alt="" class="w-5">
+                        </div>
+                    </div>    
                 </div>
-                <p class="text-base font-normal mb-[20px]">Java is a class-based object-oriented simple programming language. Though we can not consider it to be fully ... </p>
-                <p class="text-base font-medium mb-[20px]"><span class="text-[#10C843] text-4xl">125.65</span>AED</p>
-                <div class="flex justify-center items-center gap-4">
-                    <button class="bg-[#10C843] rounded-full px-[20px] py-4 text-white text-base 
-                        font-medium flex justify-center items-center gap-[10px] px-"
-                        >View Course
-                    </button>
-                    <div class="p-4 border-2 border-[#10C843] rounded-full size-14 flex items-center">
-                        <img src="images/card.svg" alt="" class="w-5">
+                <div class="bg-white px-[20px] py-[20px] rounded-lg w-[376px]">
+                    <img src="images/java.png " alt="" class="w-full h-[221px] mb-[20px]">
+                    <div class="mb-[20px] flex justify-between items-center gap-16">
+                        <p class="text-2xl font-semibold ">Basics of JAVA</p>
+                        <p class="text-[#10C843] text-xs font-medium p-3 bg-[#CFF4D9] rounded-lg ">Beginner Level</p>
                     </div>
-                </div>    
-            </div>        
-            <div class="bg-white px-[20px] py-[20px] rounded-lg">
-                <img src="images/java.png " alt="" class="w-[336px] h-[221px] mb-[20px]">
-                <div class="mb-[20px] flex items-center gap-16">
-                    <p class="text-2xl font-semibold ">Basics of JAVA</p>
-                    <p class="text-[#10C843] text-xs font-medium p-3 bg-[#CFF4D9] rounded-lg ">Beginner Level</p>
+                    <p class="text-base font-normal mb-[20px]">Java is a class-based object-oriented simple programming language. Though we can not consider it to be fully ... </p>
+                    <p class="text-base font-medium mb-[20px]"><span class="text-[#10C843] text-4xl">125.65</span>AED</p>
+                    <div class="flex justify-between items-center gap-4">
+                        <button class="bg-[#10C843] rounded-full px-[20px] py-4 text-white text-base 
+                            font-medium flex justify-center items-center gap-[10px] px-"
+                            >View Course
+                        </button>
+                        <div class="p-4 border-2 border-[#10C843] rounded-full size-14 flex items-center">
+                            <img src="images/card.svg" alt="" class="w-5">
+                        </div>
+                    </div>    
                 </div>
-                <p class="text-base font-normal mb-[20px]">Java is a class-based object-oriented simple programming language. Though we can not consider it to be fully ... </p>
-                <p class="text-base font-medium mb-[20px]"><span class="text-[#10C843] text-4xl">125.65</span>AED</p>
-                <div class="flex justify-center items-center gap-4">
-                    <button class="bg-[#10C843] rounded-full px-[20px] py-4 text-white text-base 
-                        font-medium flex justify-center items-center gap-[10px] px-"
-                        >View Course
-                    </button>
-                    <div class="p-4 border-2 border-[#10C843] rounded-full size-14 flex items-center">
-                        <img src="images/card.svg" alt="" class="w-5">
+                <div class="bg-white px-[20px] py-[20px] rounded-lg w-[376px]">
+                    <img src="images/java.png " alt="" class="w-full h-[221px] mb-[20px]">
+                    <div class="mb-[20px] flex justify-between items-center gap-16">
+                        <p class="text-2xl font-semibold ">Basics of JAVA</p>
+                        <p class="text-[#10C843] text-xs font-medium p-3 bg-[#CFF4D9] rounded-lg ">Beginner Level</p>
                     </div>
-                </div>    
-            </div>        
-            <div class="bg-white px-[20px] py-[20px] rounded-lg">
-                <img src="images/java.png " alt="" class="w-[336px] h-[221px] mb-[20px]">
-                <div class="mb-[20px] flex items-center gap-16">
-                    <p class="text-2xl font-semibold ">Basics of JAVA</p>
-                    <p class="text-[#10C843] text-xs font-medium p-3 bg-[#CFF4D9] rounded-lg ">Beginner Level</p>
+                    <p class="text-base font-normal mb-[20px]">Java is a class-based object-oriented simple programming language. Though we can not consider it to be fully ... </p>
+                    <p class="text-base font-medium mb-[20px]"><span class="text-[#10C843] text-4xl">125.65</span>AED</p>
+                    <div class="flex justify-between items-center gap-4">
+                        <button class="bg-[#10C843] rounded-full px-[20px] py-4 text-white text-base 
+                            font-medium flex justify-center items-center gap-[10px] px-"
+                            >View Course
+                        </button>
+                        <div class="p-4 border-2 border-[#10C843] rounded-full size-14 flex items-center">
+                            <img src="images/card.svg" alt="" class="w-5">
+                        </div>
+                    </div>    
                 </div>
-                <p class="text-base font-normal mb-[20px]">Java is a class-based object-oriented simple programming language. Though we can not consider it to be fully ... </p>
-                <p class="text-base font-medium mb-[20px]"><span class="text-[#10C843] text-4xl">125.65</span>AED</p>
-                <div class="flex justify-center items-center gap-4">
-                    <button class="bg-[#10C843] rounded-full px-[20px] py-4 text-white text-base 
-                        font-medium flex justify-center items-center gap-[10px] px-"
-                        >View Course
-                    </button>
-                    <div class="p-4 border-2 border-[#10C843] rounded-full size-14 flex items-center">
-                        <img src="images/card.svg" alt="" class="w-5">
-                    </div>
-                </div>    
             </div>
         </div>
         <div class="flex justify-center items-center gap-11">
@@ -305,13 +309,13 @@
                 >All Features<img src="images/arrow.svg" alt="" class="size-[20px]">
             </button>
         </div>
-    </div>
-    <div class="px-[140px] py-[90px] mb-40">
+    </div> 
+    <div class="px-5 lg:px-[140px] py-[90px] mb-40">
         <p class="text-center text-[#10C843] text-2xl font-semibold mb-[30px]" >Blog Posts</p>
-        <p class="text-center text-5xl font-medium mb-[30px] px-48">Articles will help to to stay up to date with all the knowledge</p>
-        <p class="text-center text-base font-normal mb-[30px] px-72">Install our top-rated dropshipping app to your e-commerce site and get access to US Suppliers, AliExpress vendors, and the best.</p>
-        <div class="mb-20 gap-[16px] grid grid-cols-3">
-            <div class="mb-10 max-w-[376px]">
+        <p class="text-center text-5xl font-medium mb-[30px] lg:px-48">Articles will help to to stay up to date with all the knowledge</p>
+        <p class="text-center text-base font-normal mb-[30px] lg:px-72">Install our top-rated dropshipping app to your e-commerce site and get access to US Suppliers, AliExpress vendors, and the best.</p>
+        <div class="mb-10 lg:mb-20 gap-[16px] grid lg:grid-cols-3 grid-cols-2">
+            <div class="mb-10 shadow-xl px-2 py-2">
                 <img src="images/blog1.png" alt="" class="mb-[20px] rounded-xl">
                 <p class="mb-[20px] text-2xl font-semibold">Why Java is best programming language?</p>
                 <p class="mb-[20px] text-base font-normal">Java is a class-based object-oriented simple 
@@ -321,7 +325,7 @@
                 >All Features<img src="images/arrow1.svg" alt="" class="size-[20px]">
                 </button>
             </div>
-            <div class="mb-10 max-w-[376px]">
+            <div class="mb-10 shadow-xl px-2 py-2">
                 <img src="images/blog1.png" alt="" class="mb-[20px] rounded-xl">
                 <p class="mb-[20px] text-2xl font-semibold">Why Java is best programming language?</p>
                 <p class="mb-[20px] text-base font-normal">Java is a class-based object-oriented simple 
@@ -331,7 +335,7 @@
                 >All Features<img src="images/arrow1.svg" alt="" class="size-[20px]">
                 </button>
             </div>
-            <div class="mb-10 max-w-[376px]">
+            <div class="mb-10 shadow-xl px-2 py-2">
                 <img src="images/blog1.png" alt="" class="mb-[20px] rounded-xl">
                 <p class="mb-[20px] text-2xl font-semibold">Why Java is best programming language?</p>
                 <p class="mb-[20px] text-base font-normal">Java is a class-based object-oriented simple 
@@ -341,7 +345,7 @@
                 >All Features<img src="images/arrow1.svg" alt="" class="size-[20px]">
                 </button>
             </div>
-            <div class="mb-10 max-w-[376px]">
+            <div class="mb-10 shadow-xl px-2 py-2">
                 <img src="images/blog1.png" alt="" class="mb-[20px] rounded-xl">
                 <p class="mb-[20px] text-2xl font-semibold">Why Java is best programming language?</p>
                 <p class="mb-[20px] text-base font-normal">Java is a class-based object-oriented simple 
@@ -351,7 +355,7 @@
                 >All Features<img src="images/arrow1.svg" alt="" class="size-[20px]">
                 </button>
             </div>
-            <div class="mb-10 max-w-[376px]">
+            <div class="mb-10 shadow-xl px-2 py-2">
                 <img src="images/blog1.png" alt="" class="mb-[20px] rounded-xl">
                 <p class="mb-[20px] text-2xl font-semibold">Why Java is best programming language?</p>
                 <p class="mb-[20px] text-base font-normal">Java is a class-based object-oriented simple 
@@ -361,7 +365,7 @@
                 >All Features<img src="images/arrow1.svg" alt="" class="size-[20px]">
                 </button>
             </div>
-            <div class="mb-10 max-w-[376px]">
+            <div class="mb-10 shadow-xl px-2 py-2">
                 <img src="images/blog1.png" alt="" class="mb-[20px] rounded-xl">
                 <p class="mb-[20px] text-2xl font-semibold">Why Java is best programming language?</p>
                 <p class="mb-[20px] text-base font-normal">Java is a class-based object-oriented simple 
@@ -373,44 +377,44 @@
             </div>
         </div>
     </div>
-    <div class="px-[140px] py-[90px] mb-40">
+    <div class="px-5 lg:px-[140px] py-10 lg:py-[90px] mb-40">
         <p class="text-center text-[#10C843] text-2xl font-semibold mb-[30px]" >FAQs</p>
-        <p class="text-center text-5xl font-medium mb-[30px] px-48">Frequently Asked Questions</p>
-        <p class="text-center text-base font-normal mb-[30px] px-72">Install our top-rated dropshipping app to your e-commerce site and get access to US Suppliers, AliExpress vendors, and the best.</p>
+        <p class="text-center text-5xl font-medium mb-[30px] lg:px-48">Frequently Asked Questions</p>
+        <p class="text-center text-base font-normal mb-[60px] lg:px-72">Install our top-rated dropshipping app to your e-commerce site and get access to US Suppliers, AliExpress vendors, and the best.</p>
         <div class="mb-20 gap-[16px] grid grid-cols-2">
-            <div class="mb-[20px]">
+            <div class="mb-[20px] shadow-lg px-4 rounded-lg">
                 <p class="text-2xl font-medium mb-[20px]">What is dropshipping?</p>
                 <p class="text-base font-normal mb-[20px]">Over 350,000 online businesses and entrepreneurs have used Modalyst. It's the easiest way to find the best print on demand companies</p>
             </div>
-            <div class="mb-[20px]">
+            <div class="mb-[20px] shadow-lg px-4 rounded-lg">
                 <p class="text-2xl font-medium mb-[20px]">What is dropshipping?</p>
                 <p class="text-base font-normal mb-[20px]">Over 350,000 online businesses and entrepreneurs have used Modalyst. It's the easiest way to find the best print on demand companies</p>
             </div>
-            <div class="mb-[20px]">
+            <div class="mb-[20px] shadow-lg px-4 rounded-lg">
                 <p class="text-2xl font-medium mb-[20px]">What is dropshipping?</p>
                 <p class="text-base font-normal mb-[20px]">Over 350,000 online businesses and entrepreneurs have used Modalyst. It's the easiest way to find the best print on demand companies</p>
             </div>
-            <div class="mb-[20px]">
+            <div class="mb-[20px] shadow-lg px-4 rounded-lg">
                 <p class="text-2xl font-medium mb-[20px]">What is dropshipping?</p>
                 <p class="text-base font-normal mb-[20px]">Over 350,000 online businesses and entrepreneurs have used Modalyst. It's the easiest way to find the best print on demand companies</p>
             </div>
-            <div class="mb-[20px]">
+            <div class="mb-[20px] shadow-lg px-4 rounded-lg">
                 <p class="text-2xl font-medium mb-[20px]">What is dropshipping?</p>
                 <p class="text-base font-normal mb-[20px]">Over 350,000 online businesses and entrepreneurs have used Modalyst. It's the easiest way to find the best print on demand companies</p>
             </div>
-            <div class="mb-[20px]">
+            <div class="mb-[20px] shadow-lg px-4 rounded-lg">
                 <p class="text-2xl font-medium mb-[20px]">What is dropshipping?</p>
                 <p class="text-base font-normal mb-[20px]">Over 350,000 online businesses and entrepreneurs have used Modalyst. It's the easiest way to find the best print on demand companies</p>
             </div>
         </div>
     </div>
     <!-- ------- -->
-    <footer class="bg-black px-[140px] pt-56">
-        <div class="mb-40">
-            <div class="text-center">
+    <footer class="bg-black lg:pt-56 lg:relative">
+        <div class="mb-40 lg:absolute lg:-top-[50%] lg:px-[150px]">
+            <div class="text-center bg-[url('images/bgf.png')] bg-cover rounded-lg px-7 py-10">
                 <p class="text-[#10C843] text-2xl font-semibold mb-5">Join Us</p>
-                <p class="text-5xl font-medium mb-5 text-white ">Join Us by Creating Account or Start a Free Trial</p>
-                <p class="text-base font-normal mb-5 text-white ">Install our top-rated dropshipping app to your 
+                <p class="text-5xl font-medium mb-5 text-white lg:px-[250px]">Join Us by Creating Account or Start a Free Trial</p>
+                <p class="text-base font-normal mb-5 text-white lg:px-[250px]">Install our top-rated dropshipping app to your 
                     e-commerce site and get access to US Suppliers, AliExpress vendors, and the best dropshipping 
                     and custom products.
                 </p>
@@ -426,11 +430,11 @@
                 </div>
             </div>
         </div>
-        <div class="flex justify-between items-center mb-[100px]">
+        <div class="flex justify-between items-center mb-[100px] px-5 lg:px-[140px]">
             <div class="relative">
                 <h1 class="text-[#10C843] text-3xl font-bold">eLearning</h1>
             </div>
-            <div>
+            <div class="hidden lg:block">
                 <ul class="text-base font-medium flex  gap-[22px]">
                     <li class="text-white">Home</li>
                     <li class="text-white">Features</li>
